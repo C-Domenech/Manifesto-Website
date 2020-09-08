@@ -1,7 +1,3 @@
-# Índice
-
-[TOC]
-
 # Diagrama de Flujo
 
 ![flujo](img/flujo.png)
@@ -223,7 +219,9 @@ Finalmente nos dirigimos a nuestro navegador y escribimos en la barra superior �
 
 
 
-![[xampmanlogin](http://manifesto.epizy.com/)](img/xampmanlogin.png)
+![xampmanlogin](img/xampmanlogin.png)
+
+Para más información visita [Manifesto](http://manifesto.epizy.com/)
 
 
 
