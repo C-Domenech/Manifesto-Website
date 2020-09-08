@@ -111,13 +111,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     $mail->isSMTP();                                      // Set mailer to use SMTP
                     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-                    $mail->Username = 'landingpageproyecto@gmail.com';                 // SMTP username
-                    $mail->Password = 'tciirutjlukrgxgx';                           // SMTP password
+                    $mail->Username = 'email@email.com';                 // SMTP username
+                    $mail->Password = 'password';                           // SMTP password
                     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, ssl also accepted
                     $mail->Port = 587;                                    // TCP port to connect to
 
                     //Recipients
-                    $mail->setFrom('landingpageproyecto@gmail.com', 'Manifesto');
+                    $mail->setFrom('email@email.com', 'Manifesto');
                     $mail->addAddress($email, $nombre);     // Add a recipient
                     //$mail->addAddress('ellen@example.com');               // Name is optional
                     //$mail->addReplyTo('info@example.com', 'Information');
