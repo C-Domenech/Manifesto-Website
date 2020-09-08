@@ -1,0 +1,45 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myloginform{
+    width: 100%;
+    max-width: 320px;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.myuploadform{
+    width: 100%;
+    max-width: 420px;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.myregform{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 1em;
+}
+
+.btn {
+    border-radius: 1em;
+}
+
+.form-control{
+    border-radius: 1em;
+}
+
+.jumbotron {
+    color: white;
+    background-color: rgb(37, 77, 110);
+}
+
+.mytable {
+    margin: 0 auto;
+    max-width: 1200px;
+}
