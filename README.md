@@ -1,7 +1,3 @@
-# Índice
-
-[TOC]
-
 # Diagrama de Flujo
 
 ![flujo](img/flujo.png)
