@@ -1,9 +1,9 @@
 <?php
 // Variables conexión
-$hostname = 'sql306.epizy.com';
-$username = 'epiz_25969362';
-$password = 'TpdKY7mLzHzuh3S';
-$database = 'epiz_25969362_manifesto';
+$hostname = 'HOSTNAME';
+$username = 'USERNAME';
+$password = 'PASSWORD';
+$database = 'DATABASE';
 
 // Conexión
 $conn = mysqli_connect($hostname, $username, $password, $database);
