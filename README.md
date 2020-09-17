@@ -115,7 +115,21 @@ Tabla “documento”:
 Para establecer conexión entre MySQL y PHP usamos el siguiente código:
 
 ```php
-long php code fihdoafhuiodfosdf
+// Variables conexión
+$hostname = 'HOSTNAME';
+$username = 'USERNAME';
+$password = 'PASSWORD';
+$database = 'DATABASE';
+
+// Conexión
+$conn = mysqli_connect($hostname, $username, $password, $database);
+
+mysqli_set_charset($conn, "utf8");
+
+// Comprueba conexión
+if($conn === false){
+    die("ERROR: No se pudo conectar. " . mysqli_connect_error());
+}
 ```
 
 Este fragmento de código establece como variables el nombre del host de la base de datos, el nombre del usuario, la contraseña y el nombre de la base de datos y los usa para crear una conexión usando la función “mysqli_connect” y guardando esto en la variable “$conn”. Siguiente podemos ver como el código comprueba la conexión y establece un mensaje de error en el caso de que no se pudiera conectar a la base de datos.
